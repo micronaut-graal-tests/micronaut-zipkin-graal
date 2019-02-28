@@ -39,7 +39,7 @@ dependencies {
     runtime "ch.qos.logback:logback-classic:1.2.3"
     runtime "io.zipkin.brave:brave-instrumentation-http"
     runtime "io.zipkin.reporter2:zipkin-reporter"
-    runtime "io.micronaut:micronaut-graal"
+    runtime 'io.micronaut:micronaut-core'
     testCompile "junit:junit:4.12"
     testCompile "io.micronaut:micronaut-inject-java"
     testCompile "org.hamcrest:hamcrest-all:1.3"

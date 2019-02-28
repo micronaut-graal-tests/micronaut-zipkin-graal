@@ -2,6 +2,9 @@
 micronaut:
     application:
         name: zipkin-graal
+jackson:
+    module-scan: false
+    bean-introspection-module: true
 
 ---
 tracing:
