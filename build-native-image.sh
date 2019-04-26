@@ -1,2 +1,2 @@
 ./gradlew assemble
-native-image --no-server --class-path build/libs/zipkin-graal-*.jar
+native-image --no-server --no-fallback --class-path build/libs/zipkin-graal-*.jar
