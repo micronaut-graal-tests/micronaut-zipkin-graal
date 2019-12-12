@@ -36,7 +36,7 @@ dependencies {
     implementation "io.opentracing.brave:brave-opentracing"
     implementation "io.micronaut:micronaut-tracing"
 
-    compileOnly "com.oracle.substratevm:svm"
+    compileOnly "org.graalvm.nativeimage:svm"
 
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
 
