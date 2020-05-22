@@ -1,10 +1,7 @@
 ---
 micronaut:
-    application:
-        name: zipkin-graal
-jackson:
-    bean-introspection-module: true
-
+  application:
+    name: zipkin-graal
 ---
 tracing:
   zipkin:
