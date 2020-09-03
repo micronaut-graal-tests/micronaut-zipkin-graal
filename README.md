@@ -1,16 +1,3 @@
 # Micronaut Zipkin #
 
-Test application for Micronaut and GraalVM that uses:
-
-- `HelloWorld` controller that returns `Hello ${name}` as a String.
-- Zipkin for Distributed Tracing.
-
-To run Zipkin in Docker:
-```
-docker run -it --rm -p 9411:9411 openzipkin/zipkin:2.21.1
-```
-
-```
-curl localhost:8080/hello/Micronaut
-curl http://localhost:9411/zipkin/api/v2/spans\?serviceName\=zipkin-graal
-```
+:warning: **The master branch is not used anymore**. Checkout branches for each specific Micronaut minor version: `2.1.x`, `2.0.x`, `1.3.x`,...
