@@ -7,7 +7,7 @@ Test application for Micronaut and GraalVM that uses:
 
 To run Zipkin in Docker:
 ```
-docker run -it --rm -p 9411:9411 openzipkin/zipkin:2.11.12
+docker run -it --rm -p 9411:9411 openzipkin/zipkin:2.21.1
 ```
 
 ```
