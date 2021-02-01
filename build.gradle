@@ -44,4 +44,5 @@ java {
 
 nativeImage {
     imageName('zipkin')
+    args = ["-H:+StaticExecutableWithDynamicLibC"]
 }
